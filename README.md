@@ -1,13 +1,10 @@
----
-title: Diabetes Prediction Model
-emoji: 🐠
-colorFrom: purple
-colorTo: pink
-sdk: gradio
-sdk_version: 5.39.0
-app_file: app.py
-pinned: false
-short_description: 'A machine learning for predicting diabetes '
----
+# Diabetes Prediction Model
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+This project predicts diabetes using machine learning techniques.  
+It includes data preprocessing, model training, and evaluation.
+
+## Technologies Used
+- Python
+- Scikit-learn
+- Pandas
+- Jupyter Notebook
