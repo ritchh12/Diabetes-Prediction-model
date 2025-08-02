@@ -4,8 +4,8 @@ import joblib
 import matplotlib.pyplot as plt
 
 # Load model and scaler
-model = joblib.load(r"D:\diabetes_model.pkl")
-scaler = joblib.load(r"D:\diabetes_scaler.pkl")
+model = joblib.load("diabetes_model.pkl")
+scaler = joblib.load("diabetes_scaler.pkl")
 
 # Input feature names
 feature_names = ['Glucose', 'BMI', 'Age', 'Insulin', 'SkinThickness']
